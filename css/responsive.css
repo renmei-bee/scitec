@@ -1,0 +1,121 @@
+
+@media(max-width:500px){
+    /* --------------------
+    　　　　全体構造
+    ----------------------*/
+
+    /* 横スクロールバーを消す */
+    .content {
+        width: auto;
+    }
+    header .inner {
+        width: auto;
+    }
+    main {
+        width: auto;
+    }
+
+    /* コンテンツ main asideの横並びを取り除く */
+    .content {
+        display: block;
+      }
+
+    /* ------------------
+    ヘッダー
+    ------------------ */
+    .hamburger-nav{
+        height: 100%;
+    }
+    .hamburger-button {
+    display: flex;
+    /* ボタン位置を変える */
+    top:60px;
+    right: 30px;
+    /* ハンバーガーボタンの背景を透明に */
+    background-color: transparent;
+    }
+     /* ハンバーガーボタンの大きさを変える */
+    .hamburger-button svg {
+        width: 30px;
+        height: 30px;
+    }
+     /* ハンバーガーボタンの色を変える */
+    .hamburger-button path {
+        fill: red;
+    }
+    .hamburger-nav li{
+        padding: 20px;
+        border-bottom: 1px solid #ddd;
+    }
+    /* ハンバーガーメニューの文字デザイン */
+    .hamburger-nav a{
+        color: #0182be;;
+        text-decoration: none;
+    }
+    /* 通常のナビを非表示 */
+    .pc-nav{
+    display: none;
+    }
+    
+    
+    /* ------------------
+    　　　メイン
+    ------------------ */
+    main{
+    margin-bottom: 60px;
+    }
+    /* ------------------
+    サイド
+    ------------------ */
+    aside {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    }
+      
+    /* ------------------
+    フッター
+    ------------------ */
+    footer {
+    text-align: center;
+    }
+    footer small br{
+    display: inline;
+    }
+
+
+    /* --------------------
+        トップページ用
+    ----------------------*/
+    #home main h2 {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    #home main p {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    /* --------------------
+        トップページ以外
+    ----------------------*/
+    /* 内側に10px入れる */
+    .others main{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+     /* カードデザインを縦並び中央配置にする */
+    main .card {
+         display: block;
+         text-align: center;
+    }
+    main .card img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    main .card .desc {
+        width: auto;
+    }
+    
+}

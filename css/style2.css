@@ -1,0 +1,187 @@
+
+/* ------------------
+  全体構造
+------------------ */
+body {
+  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro','メイリオ', 'Meiryo', '游ゴシック', 'Yu Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-size: 16px;
+  background-color: #fff;
+  color: #000;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 960px;
+  margin: 0 auto 20px auto;
+}
+.others main h2 {
+  background-color: #0182be;
+  color: #fff;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+/* カードデザイン */
+main .card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 60px;
+}
+main .card img {
+  margin-right: 20px;
+}
+main .card .desc {
+  width: 420px;
+}
+main .card h3 {
+  font-size: 20px;
+  color: #0182be;
+  margin-bottom: 20px;
+}
+main .card p {
+  line-height: 1.5;
+  text-align: justify;
+}
+
+
+
+/* ------------------
+  ヘッダー
+------------------ */
+header {
+  background-color: #b2eaff;
+  border-top: 10px solid #0182be;
+  padding: 0 20px;
+  margin-bottom: 20px;
+  border-radius: 0 0 5px 5px;
+}
+header .inner {
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 960px;
+  margin: 0 auto;
+}
+/* 大きい画像のサイズ調整 */
+header h1 img{
+  width: 260px;
+}
+header .pc-nav ul {
+  display: flex;
+}
+header .pc-nav li {
+  margin-left: 20px;
+}
+/* ハンバーガーメニューを非表示 */
+.hamburger-button{
+  display: none;
+}
+
+/* ------------------
+  メイン
+------------------ */
+main {
+  width: 640px;
+}
+
+/* ------------------
+  サイド
+------------------ */
+aside {
+  width: 300px;
+}
+aside .banner {
+  margin-bottom: 20px;
+}
+aside .news {
+  border: 3px solid #0182be;
+  border-radius: 5px;
+}
+aside .news h2 {
+  background-color: #0182be;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
+}
+aside .news ul {
+  margin: 20px 20px 0 20px;
+}
+aside .news li {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+aside .news a {
+  color: #ffcc00;
+}
+
+/* ------------------
+  フッター
+------------------ */
+footer {
+  background-color: #b2eaff;
+  border-bottom: 10px solid #0182be;
+  border-radius: 5px 5px 0 0;
+  height: 140px;
+  /* 中央配置 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer address {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+footer small br{
+    display: none;
+}
+/* ------------------
+  トップページ
+------------------ */
+#home main .main-image {
+  margin-bottom: 20px;
+}
+#home main h2 {
+  font-size: 20px;
+  color: #0182be;
+  margin-bottom: 20px;
+}
+#home main p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+/* ------------------
+  学科紹介
+------------------ */
+
+
+/* ------------------
+  入学案内
+------------------ */
+
+
+/* ------------------
+  アクセス
+------------------ */
+#access main .shopping h3 {
+  color: #0182be;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#access main .shopping p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+
